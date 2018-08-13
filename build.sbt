@@ -2,9 +2,9 @@ import com.typesafe.sbt.SbtScalariform.autoImport.scalariformFormat
 import com.typesafe.sbt.SbtScalariform.ScalariformKeys
 import scalariform.formatter.preferences._
 
-name := """lila-search"""
+name := """lidraughts-search"""
 
-version := "1.4"
+version := "1.0"
 
 scalaVersion := "2.12.4"
 
@@ -26,7 +26,7 @@ scalacOptions ++= Seq(
 val elastic4sVersion = "6.2.3"
 
 libraryDependencies ++= Seq(
-  "com.github.ornicar" %% "scalalib" % "6.5",
+  "com.github.ornicar" %% "scalalib" % "6.6",
   "com.sksamuel.elastic4s" %% "elastic4s-core" % elastic4sVersion,
   "com.sksamuel.elastic4s" %% "elastic4s-http" % elastic4sVersion,
   "com.typesafe.play" %% "play-json-joda" % "2.6.7",

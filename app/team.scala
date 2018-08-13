@@ -1,4 +1,4 @@
-package lila.search
+package lidraughts.search
 package team
 
 import com.sksamuel.elastic4s.http.ElasticDsl.{ RichFuture => _, _ }
@@ -23,7 +23,7 @@ object Mapping {
   )
 }
 
-case class Query(text: String) extends lila.search.Query {
+case class Query(text: String) extends lidraughts.search.Query {
 
   def searchDef(from: From, size: Size) = index =>
     search(index.toString) query makeQuery sortBy (

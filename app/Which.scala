@@ -1,4 +1,4 @@
-package lila.search
+package lidraughts.search
 
 import play.api.libs.json._
 

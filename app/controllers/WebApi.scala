@@ -2,7 +2,7 @@ package controllers
 
 import akka.actor._
 import javax.inject._
-import lila.search._
+import lidraughts.search._
 import play.api._
 import play.api.http.ContentTypes._
 import play.api.libs.json._

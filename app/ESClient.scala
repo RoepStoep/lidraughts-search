@@ -1,4 +1,4 @@
-package lila.search
+package lidraughts.search
 
 import scala.concurrent.{ Future, ExecutionContext }
 

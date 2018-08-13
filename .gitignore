@@ -6,3 +6,6 @@ target
 /.project
 /.settings
 /RUNNING_PID
+application.conf
+start-elastic.bat
+start-search.bat

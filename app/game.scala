@@ -1,4 +1,4 @@
-package lila.search
+package lidraughts.search
 package game
 
 import org.joda.time.DateTime
@@ -73,7 +73,7 @@ case class Query(
     analysed: Option[Boolean] = None,
     whiteUser: Option[String] = None,
     blackUser: Option[String] = None
-) extends lila.search.Query {
+) extends lidraughts.search.Query {
 
   import Fields._
 

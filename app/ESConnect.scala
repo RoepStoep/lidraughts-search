@@ -1,4 +1,4 @@
-import lila.search._
+import lidraughts.search._
 
 import akka.actor._
 import com.sksamuel.elastic4s.ElasticsearchClientUri

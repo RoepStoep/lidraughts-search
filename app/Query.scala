@@ -1,4 +1,4 @@
-package lila.search
+package lidraughts.search
 
 import com.sksamuel.elastic4s.searches.SearchDefinition
 
